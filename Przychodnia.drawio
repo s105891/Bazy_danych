@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Strona-1" id="vP5EHTGX_MMngQzmX-ae">
-    <mxGraphModel dx="2068" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2531" dy="2105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,6 +28,9 @@
         <mxCell id="DI_pOj3hXLG6V3-Figwz-23" edge="1" parent="1" source="DI_pOj3hXLG6V3-Figwz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="DI_pOj3hXLG6V3-Figwz-14" value="Dokonuje">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-55" edge="1" parent="1" source="DI_pOj3hXLG6V3-Figwz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="LosEIWRObUVp7pk-aTt1-54" value="Wyraża">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DI_pOj3hXLG6V3-Figwz-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;b&gt;Pacjent&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-270" y="340" as="geometry" />
         </mxCell>
@@ -47,7 +50,7 @@
           <mxGeometry height="60" width="120" x="-600" y="410" as="geometry" />
         </mxCell>
         <mxCell id="DI_pOj3hXLG6V3-Figwz-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;b&gt;Nieobecność&lt;/b&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-350" y="210" as="geometry" />
+          <mxGeometry height="60" width="120" x="-450" y="190" as="geometry" />
         </mxCell>
         <mxCell id="DI_pOj3hXLG6V3-Figwz-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;b&gt;Konto&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-300" y="510" as="geometry" />
@@ -126,6 +129,72 @@
         </mxCell>
         <mxCell id="DI_pOj3hXLG6V3-Figwz-45" edge="1" parent="1" source="DI_pOj3hXLG6V3-Figwz-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.165;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="DI_pOj3hXLG6V3-Figwz-7" value="Jest">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-38" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Pacjent" vertex="1">
+          <mxGeometry height="270" width="160" x="-630" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-39" parent="LosEIWRObUVp7pk-aTt1-38" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#id_pacjenta&lt;/div&gt;&lt;div&gt;*typ_identyfikatora&lt;/div&gt;&lt;div&gt;*identyfikator&lt;/div&gt;&lt;div&gt;*Nazwisko&lt;/div&gt;&lt;div&gt;*Nazwisko&lt;/div&gt;&lt;div&gt;o Ulica&lt;/div&gt;&lt;div&gt;*Nr_domu&lt;/div&gt;&lt;div&gt;o Nr_lokalu&lt;/div&gt;&lt;div&gt;*Kod_pocztowy&lt;/div&gt;&lt;div&gt;*Miejscowość&lt;/div&gt;&lt;div&gt;*Kraj&lt;/div&gt;&lt;div&gt;*Nr_telefonu&lt;/div&gt;&lt;div&gt;*Email&lt;/div&gt;&lt;div&gt;*Data_urodzenia&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 1px; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22text%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3BspacingLeft%3D4%3BspacingRight%3D4%3Boverflow%3Dhidden%3Brotatable%3D0%3Bpoints%3D%5B%5B0%2C0.5%5D%2C%5B1%2C0.5%5D%5D%3BportConstraint%3Deastwest%3BfontSize%3D12%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22%26lt%3Bdiv%26gt%3B*typ_identyfikatora%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2230%22%20width%3D%22210%22%20x%3D%22-520%22%20y%3D%22696%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-42" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Identyfikator" vertex="1">
+          <mxGeometry height="120" width="160" x="-450" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-43" parent="LosEIWRObUVp7pk-aTt1-42" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="#id_identyfikatora&lt;div&gt;*nazwa&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-44" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Konto" vertex="1">
+          <mxGeometry height="210" width="160" x="-370" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-45" parent="LosEIWRObUVp7pk-aTt1-44" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="#email&lt;div&gt;*id_pacjenta&lt;/div&gt;&lt;div&gt;*hasło&lt;/div&gt;&lt;div&gt;*data_założenia&lt;/div&gt;&lt;div&gt;*data_końca&lt;/div&gt;&lt;div&gt;*czy_aktywne&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-56" edge="1" parent="LosEIWRObUVp7pk-aTt1-44" source="LosEIWRObUVp7pk-aTt1-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="LosEIWRObUVp7pk-aTt1-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-52" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Zgoda" vertex="1">
+          <mxGeometry height="120" width="160" x="-230" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-53" parent="LosEIWRObUVp7pk-aTt1-52" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="#id_pacjenta&lt;div&gt;#data_zgody&lt;/div&gt;&lt;div&gt;o data_wycofania&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="&lt;b&gt;Zgoda&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-190" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-58" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Rodzic" vertex="1">
+          <mxGeometry height="180" width="160" x="-680" y="989" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-59" parent="LosEIWRObUVp7pk-aTt1-58" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="#id_rodzica&lt;div&gt;#id_dziecka&lt;/div&gt;&lt;div&gt;*typ_opieki&lt;/div&gt;&lt;div&gt;*data_poczatku&lt;/div&gt;&lt;div&gt;o data_konca&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-60" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Filia" vertex="1">
+          <mxGeometry height="251" width="160" x="-413" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-61" parent="LosEIWRObUVp7pk-aTt1-60" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;#id_filii&lt;/div&gt;*nazwa&lt;div&gt;o ulica&lt;/div&gt;&lt;div&gt;*nr_domu&lt;/div&gt;&lt;div&gt;o nr_lokalu&lt;/div&gt;&lt;div&gt;*kod_ocztowy&lt;/div&gt;&lt;div&gt;*miejscowosc&lt;/div&gt;&lt;div&gt;*kraj&lt;/div&gt;&lt;div&gt;*nr_telefonu&lt;/div&gt;" vertex="1">
+          <mxGeometry height="201" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-66" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Otwarcie" vertex="1">
+          <mxGeometry height="230" width="160" x="-135" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-67" parent="LosEIWRObUVp7pk-aTt1-66" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="#id_filii&lt;div&gt;#dzien&lt;/div&gt;&lt;div&gt;#godz_od&lt;/div&gt;&lt;div&gt;#godz_do&lt;/div&gt;&lt;div&gt;#czy_aktywne&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-70" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Gabinet" vertex="1">
+          <mxGeometry height="240" width="230" x="-135" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-71" parent="LosEIWRObUVp7pk-aTt1-70" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="#id_filii&lt;div&gt;#nr_gabinetu&lt;/div&gt;&lt;div&gt;*nazwa&lt;/div&gt;&lt;div&gt;*rodzaj_gabinetu&lt;/div&gt;&lt;div&gt;*dostepnosc_niepelnosprawni&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-72" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Pracownik" vertex="1">
+          <mxGeometry height="180" width="160" x="130" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-73" parent="LosEIWRObUVp7pk-aTt1-72" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="#id_pracownika&lt;div&gt;*imie&lt;/div&gt;&lt;div&gt;*nazwisko&lt;/div&gt;&lt;div&gt;*stanowisko&lt;/div&gt;&lt;div&gt;*nr_telefonu&lt;/div&gt;&lt;div&gt;*email&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-76" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Grafik" vertex="1">
+          <mxGeometry height="270" width="160" x="370" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="LosEIWRObUVp7pk-aTt1-77" parent="LosEIWRObUVp7pk-aTt1-76" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="#id_filii&lt;div&gt;#nr_gabinetu&lt;/div&gt;&lt;div&gt;#id_pracownika&lt;/div&gt;&lt;div&gt;*data_dyzuru&lt;/div&gt;&lt;div&gt;*godzina_rozpoczecia&lt;/div&gt;&lt;div&gt;*godzina_zakonczenia&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="160" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
